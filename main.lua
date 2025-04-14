@@ -4,7 +4,7 @@
 ║║║║╚═╝║║║║╚╝╚╣╚══╗─║║
 ║║║║╔══╣║╔║╔═╗║╔══╝─║║
 ║║║║║──║╚╝║╚═╝║╚══╗─║║
-╚╝╚╩╝──╚══╩═══╩═══╝─╚╝ а че мы тут делаем м???
+╚╝╚╩╝──╚══╩═══╩═══╝─╚╝ так а че мы тут делаем емае хехе, купи эклипс лучше братан store.moonvide.ru
 ]=]
 
 -- Instances: 35 | Scripts: 7 | Modules: 0 | Tags: 0
@@ -189,118 +189,118 @@ G2L["14"] = Instance.new("LocalScript", G2L["1"]);
 G2L["14"]["Name"] = [[MnstrKillSND]];
 
 
--- StarterGui.MHopper.MnstrKillSND.Monster kill
-G2L["15"] = Instance.new("Sound", G2L["14"]);
-G2L["15"]["Name"] = [[Monster kill]];
-G2L["15"]["SoundId"] = [[rbxassetid://6350854289]];
+-- StarterGui.MHopper.Load
+G2L["15"] = Instance.new("Frame", G2L["1"]);
+G2L["15"]["BorderSizePixel"] = 0;
+G2L["15"]["BackgroundColor3"] = Color3.fromRGB(25, 25, 25);
+G2L["15"]["Size"] = UDim2.new(0.17941, 0, 0.24228, 0);
+G2L["15"]["Position"] = UDim2.new(0.01774, 0, 0.72888, 0);
+G2L["15"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15"]["Name"] = [[Load]];
 
 
--- StarterGui.MHopper.Ad
-G2L["16"] = Instance.new("Frame", G2L["1"]);
+-- StarterGui.MHopper.Load.COPY
+G2L["16"] = Instance.new("TextButton", G2L["15"]);
+G2L["16"]["TextWrapped"] = true;
 G2L["16"]["BorderSizePixel"] = 0;
-G2L["16"]["BackgroundColor3"] = Color3.fromRGB(25, 25, 25);
-G2L["16"]["Size"] = UDim2.new(0.17941, 0, 0.24228, 0);
-G2L["16"]["Position"] = UDim2.new(0.01774, 0, 0.72888, 0);
+G2L["16"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["TextSize"] = 14;
+G2L["16"]["TextScaled"] = true;
+G2L["16"]["BackgroundColor3"] = Color3.fromRGB(146, 255, 0);
+G2L["16"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["16"]["Size"] = UDim2.new(0.64754, 0, 0.33557, 0);
+G2L["16"]["Name"] = [[COPY]];
 G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["16"]["Name"] = [[Ad]];
+G2L["16"]["Text"] = [[OMG!! I COPIED LINK (click)]];
+G2L["16"]["Position"] = UDim2.new(0.05709, 0, 0.59095, 0);
 
 
--- StarterGui.MHopper.Ad.COPY
-G2L["17"] = Instance.new("TextButton", G2L["16"]);
-G2L["17"]["TextWrapped"] = true;
-G2L["17"]["BorderSizePixel"] = 0;
-G2L["17"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["17"]["TextSize"] = 14;
-G2L["17"]["TextScaled"] = true;
-G2L["17"]["BackgroundColor3"] = Color3.fromRGB(146, 255, 0);
-G2L["17"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["17"]["Size"] = UDim2.new(0.64754, 0, 0.33557, 0);
-G2L["17"]["Name"] = [[COPY]];
-G2L["17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["17"]["Text"] = [[OMG!! I COPIED LINK (click)]];
-G2L["17"]["Position"] = UDim2.new(0.05709, 0, 0.59095, 0);
-
-
--- StarterGui.MHopper.Ad.COPY.UICorner
-G2L["18"] = Instance.new("UICorner", G2L["17"]);
+-- StarterGui.MHopper.Load.COPY.UICorner
+G2L["17"] = Instance.new("UICorner", G2L["16"]);
 
 
 
--- StarterGui.MHopper.Ad.COPY.LocalScript
-G2L["19"] = Instance.new("LocalScript", G2L["17"]);
+-- StarterGui.MHopper.Load.COPY.LocalScript
+G2L["18"] = Instance.new("LocalScript", G2L["16"]);
 
 
 
--- StarterGui.MHopper.Ad.COPY.UIAspectRatioConstraint
-G2L["1a"] = Instance.new("UIAspectRatioConstraint", G2L["17"]);
-G2L["1a"]["AspectRatio"] = 3.16;
+-- StarterGui.MHopper.Load.COPY.UIAspectRatioConstraint
+G2L["19"] = Instance.new("UIAspectRatioConstraint", G2L["16"]);
+G2L["19"]["AspectRatio"] = 3.16;
 
 
--- StarterGui.MHopper.Ad.TextLabel
-G2L["1b"] = Instance.new("TextLabel", G2L["16"]);
-G2L["1b"]["TextWrapped"] = true;
-G2L["1b"]["BorderSizePixel"] = 0;
-G2L["1b"]["TextSize"] = 14;
-G2L["1b"]["TextScaled"] = true;
-G2L["1b"]["BackgroundColor3"] = Color3.fromRGB(51, 51, 51);
-G2L["1b"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-G2L["1b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1b"]["Size"] = UDim2.new(0.87705, 0, 0.42953, 0);
-G2L["1b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b"]["Text"] = [[ECLIPSE IS ON DEVELOP STAGE! GET THE  PRE-ORDER]];
-G2L["1b"]["Position"] = UDim2.new(0.05709, 0, 0.11086, 0);
+-- StarterGui.MHopper.Load.TextLabel
+G2L["1a"] = Instance.new("TextLabel", G2L["15"]);
+G2L["1a"]["TextWrapped"] = true;
+G2L["1a"]["BorderSizePixel"] = 0;
+G2L["1a"]["TextSize"] = 14;
+G2L["1a"]["TextScaled"] = true;
+G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(51, 51, 51);
+G2L["1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["1a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1a"]["Size"] = UDim2.new(0.87705, 0, 0.42953, 0);
+G2L["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a"]["Text"] = [[ECLIPSE IS ON DEVELOP STAGE! GET THE  PRE-ORDER]];
+G2L["1a"]["Position"] = UDim2.new(0.05709, 0, 0.11086, 0);
 
 
--- StarterGui.MHopper.Ad.TextLabel.UICorner
-G2L["1c"] = Instance.new("UICorner", G2L["1b"]);
-
-
-
--- StarterGui.MHopper.Ad.TextLabel.UIAspectRatioConstraint
-G2L["1d"] = Instance.new("UIAspectRatioConstraint", G2L["1b"]);
-G2L["1d"]["AspectRatio"] = 3.34375;
-
-
--- StarterGui.MHopper.Ad.Exit
-G2L["1e"] = Instance.new("TextButton", G2L["16"]);
-G2L["1e"]["TextWrapped"] = true;
-G2L["1e"]["Interactable"] = false;
-G2L["1e"]["BorderSizePixel"] = 0;
-G2L["1e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e"]["TextSize"] = 14;
-G2L["1e"]["TextScaled"] = true;
-G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["1e"]["FontFace"] = Font.new([[rbxassetid://12187607287]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1e"]["Size"] = UDim2.new(0.20492, 0, 0.33557, 0);
-G2L["1e"]["Name"] = [[Exit]];
-G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e"]["Text"] = [[wait]];
-G2L["1e"]["Position"] = UDim2.new(0.73332, 0, 0.59095, 0);
-
-
--- StarterGui.MHopper.Ad.Exit.UICorner
-G2L["1f"] = Instance.new("UICorner", G2L["1e"]);
+-- StarterGui.MHopper.Load.TextLabel.UICorner
+G2L["1b"] = Instance.new("UICorner", G2L["1a"]);
 
 
 
--- StarterGui.MHopper.Ad.Exit.UIAspectRatioConstraint
-G2L["20"] = Instance.new("UIAspectRatioConstraint", G2L["1e"]);
-G2L["20"]["AspectRatio"] = 1;
+-- StarterGui.MHopper.Load.TextLabel.UIAspectRatioConstraint
+G2L["1c"] = Instance.new("UIAspectRatioConstraint", G2L["1a"]);
+G2L["1c"]["AspectRatio"] = 3.34375;
 
 
--- StarterGui.MHopper.Ad.Exit.LocalScript
-G2L["21"] = Instance.new("LocalScript", G2L["1e"]);
+-- StarterGui.MHopper.Load.Exit
+G2L["1d"] = Instance.new("TextButton", G2L["15"]);
+G2L["1d"]["TextWrapped"] = true;
+G2L["1d"]["Interactable"] = false;
+G2L["1d"]["BorderSizePixel"] = 0;
+G2L["1d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["TextSize"] = 14;
+G2L["1d"]["TextScaled"] = true;
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["1d"]["FontFace"] = Font.new([[rbxassetid://12187607287]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1d"]["Size"] = UDim2.new(0.20492, 0, 0.33557, 0);
+G2L["1d"]["Name"] = [[Exit]];
+G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["Text"] = [[wait]];
+G2L["1d"]["Position"] = UDim2.new(0.73332, 0, 0.59095, 0);
+
+
+-- StarterGui.MHopper.Load.Exit.UICorner
+G2L["1e"] = Instance.new("UICorner", G2L["1d"]);
 
 
 
--- StarterGui.MHopper.Ad.UICorner
-G2L["22"] = Instance.new("UICorner", G2L["16"]);
+-- StarterGui.MHopper.Load.Exit.UIAspectRatioConstraint
+G2L["1f"] = Instance.new("UIAspectRatioConstraint", G2L["1d"]);
+G2L["1f"]["AspectRatio"] = 1;
+
+
+-- StarterGui.MHopper.Load.Exit.LocalScript
+G2L["20"] = Instance.new("LocalScript", G2L["1d"]);
 
 
 
--- StarterGui.MHopper.Ad.UIAspectRatioConstraint
-G2L["23"] = Instance.new("UIAspectRatioConstraint", G2L["16"]);
-G2L["23"]["AspectRatio"] = 1.63758;
+-- StarterGui.MHopper.Load.UICorner
+G2L["21"] = Instance.new("UICorner", G2L["15"]);
+
+
+
+-- StarterGui.MHopper.Load.UIAspectRatioConstraint
+G2L["22"] = Instance.new("UIAspectRatioConstraint", G2L["15"]);
+G2L["22"]["AspectRatio"] = 1.63758;
+
+
+-- StarterGui.MHopper.Ms
+G2L["23"] = Instance.new("Sound", G2L["1"]);
+G2L["23"]["Name"] = [[Ms]];
+G2L["23"]["SoundId"] = [[rbxassetid://6350854289]];
 
 
 -- StarterGui.MHopper.Main.ServerHop.Glow
@@ -376,7 +376,7 @@ task.spawn(C_d);
 local function C_10()
 local script = G2L["10"];
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent:Destroy()
+		script.Parent.Parent:Destroy()
 	end)
 end;
 task.spawn(C_10);
@@ -441,23 +441,24 @@ task.spawn(C_13);
 -- StarterGui.MHopper.MnstrKillSND
 local function C_14()
 local script = G2L["14"];
-	script["Monster kill"]:Play()
+	wait(3)
+	script.Parent.Ms:Play()
 end;
 task.spawn(C_14);
--- StarterGui.MHopper.Ad.COPY.LocalScript
-local function C_19()
-local script = G2L["19"];
+-- StarterGui.MHopper.Load.COPY.LocalScript
+local function C_18()
+local script = G2L["18"];
 	local copy = "https://store.moonvide.ru"
 	
 	script.Parent.MouseButton1Click:Connect(function(plr)
 		setclipboard(tostring(copy))
 	end)
 end;
-task.spawn(C_19);
--- StarterGui.MHopper.Ad.Exit.LocalScript
-local function C_21()
-local script = G2L["21"];
-	wait(4)
+task.spawn(C_18);
+-- StarterGui.MHopper.Load.Exit.LocalScript
+local function C_20()
+local script = G2L["20"];
+	wait(15)
 	script.Parent.Text = "10"
 	wait(1)
 	script.Parent.Text = "9"
@@ -480,8 +481,13 @@ local script = G2L["21"];
 	wait(1)
 	script.Parent.Text = "X"
 	script.Parent.Interactable = true
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Text = "Are u buy a eclipse? THX FOR USING"
+		wait(3)
+		script.Parent.Parent.Parent:Destroy()
+	end)
 	
 end;
-task.spawn(C_21);
+task.spawn(C_20);
 
 return G2L["1"], require;
